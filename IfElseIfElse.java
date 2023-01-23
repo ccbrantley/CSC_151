@@ -71,6 +71,12 @@ class IfElseIfElse {
         else if (numberWheels1 == 2) {
             message1 = "Bicycle";
         }
+        else if (numberWheels1 >= 3 && numberWheels1 <= 10) {
+            message1 = "Automobile";
+        }
+        else if (numberWheels1 == 11 || numberWheels1 == 12) {
+            message1 = "Tank";
+        }
         else {
             message1 = "Hoverboard";
         }
@@ -89,6 +95,12 @@ class IfElseIfElse {
         else if (numberWheels2 == 2) {
             message2 = "Bicycle";
         }
+        else if (numberWheels2 >= 3 && numberWheels2 <= 10) {
+            message2 = "Automobile";
+        }
+        else if (numberWheels2 == 11 || numberWheels2 == 12) {
+            message2 = "Tank";
+        }
         else {
             message2 = "Hoverboard";
         }
@@ -106,6 +118,12 @@ class IfElseIfElse {
         }
         else if (numberWheels3 == 2) {
             message3 = "Bicycle";
+        }
+        else if (numberWheels3 >= 3 && numberWheels3 <= 10) {
+            message3 = "Automobile";
+        }
+        else if (numberWheels3 == 11 || numberWheels3 == 12) {
+            message3 = "Tank";
         }
         else {
             message3 = "Hoverboard";
